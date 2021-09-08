@@ -1,0 +1,28 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "\"a todo app in express\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/muchirajunior/jitulessons.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "muchira junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muchirajunior/jitulessons/issues"
+  },
+  "homepage": "https://github.com/muchirajunior/jitulessons#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
