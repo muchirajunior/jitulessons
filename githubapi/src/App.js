@@ -35,7 +35,7 @@ function App() {
            <div className="card-body">
              <h5 className="card-title"> {item.login}  </h5>
              <p className="card-text"> id : {item.id} <br/> type : {item.type} <br/> contributions : {item.contributions}   </p>
-             <a href={item.html_url} className="btn btn-primary">Go somewhere</a>
+             <a href={item.html_url} className="btn btn-primary">View Profile</a>
            </div>
          </div>
       ) : < NoData />
