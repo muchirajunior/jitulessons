@@ -1,0 +1,11 @@
+.page-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    color: blueviolet;
+    height: 90vh;
+    font-size: 2em;
+}

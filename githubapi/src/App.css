@@ -1,0 +1,25 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  margin: 0px;
+  text-align: center;
+}
+
+h1{
+  color: aliceblue;
+}
+
+.body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-body{
+  width: 18rem;
+  max-width: 25rem;
+  margin: 10px;
+  
+}
