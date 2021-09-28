@@ -13,16 +13,18 @@ var todos=[] // an empty array that will store our data in the RAM
 //index route
 app.get('/', (req,res)=>  res.send("hello john ") )
 
-//get all todos route
-app.get('/alltodos', (req,res)=> res.send(todos) )
+
 
 //add a new todo
 app.post('/addtodo', (req,res) =>{
     console.log(req.body)
     todo=req.body;
-    todos.push(todo)
+     todos.push({todo})
     res.send({"post ":"success"})
 } )
+
+//get all todos route
+app.get('/alltodos', (req,res)=> res.send(todos) )
 
 //get a specific todo
 app.get('/gettodo/:id', (req,res)=>{
