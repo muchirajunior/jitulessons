@@ -1,10 +1,14 @@
-from node:alpine
+FROM  node:alpine
 
 COPY . .
 
 RUN npm install
 
-CMD [ "npm run", "start:dev" ]
+EXPOSE 8000
 
-#$docker image build -t muchirajunior/todo-express
+CMD [ "npm", "start" ]
+
+#$docker image build -t muchirajunior/todo-express .
 #$docker run -it muchirajunior/todo-express
+
+#$docker commit container  muchirajunior/todo-express:1
